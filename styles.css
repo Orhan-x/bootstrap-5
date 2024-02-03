@@ -1,0 +1,5 @@
+body {
+    background-color: var(--bs-body-bg);
+    color: red;
+    color: var(--bs-body-color);
+}
