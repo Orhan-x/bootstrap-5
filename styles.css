@@ -45,3 +45,7 @@ a {
     border-color: var(--bs-warning-border-subtle); */
     border-color: black;
 }
+
+.box {
+    background-color: var(--bs-secondary-bg);
+}
