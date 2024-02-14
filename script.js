@@ -18,15 +18,20 @@
 
 // try Seletct data extraction
 
-let selectInput = document.getElementById('cities')
+// let selectInput = document.getElementById('cities')
 
 
 
-selectInput.addEventListener("change", function (e) {
-    console.log(selectInput.value);
+// selectInput.addEventListener("change", function (e) {
+//     console.log(selectInput.value);
+// })
+
+let switchBtn = document.getElementById('switchBtn')
+
+
+switchBtn.addEventListener('change', function (e) {
+    console.log(this.value);
 })
-
-
 
 
 

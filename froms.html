@@ -104,11 +104,12 @@
             </div>
         </div>
     </div>
-    <hr>
+    <hr class="border-danger">
     <div class="container mb-5">
         <label for="exampleColorInput" class="form-label">Color picker</label>
         <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#543d7c" title="Choose your color">
     </div>
+    <hr class="border-danger">
     <div class="container mb-5">
         <label for="exampleDataList" class="form-label">Datalist example</label>
         <input class="form-control" list="datalistOptions" value="Ouarzazate" id="exampleDataList" placeholder="Type to search...">
@@ -120,5 +121,60 @@
             <option value="Chicago">
         </datalist>
     </div>
+    <hr class="border-danger">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="form-check">
+                    <label for="default" class="form-check-label">Default CheckBox</label>
+                    <input type="checkbox" name="checkbox" id="default" class="form-check-input" checked>
+                </div>
+            </div>
+            <hr>
+            <div class="col">
+                <div class="form-check">
+                    <label for="defaultRadio" class="form-check-label">Default Ratio</label>
+                    <input type="radio" name="" id="defaultRadio" class="form-check-input">
+                </div>
+            </div>
+            <hr>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" disabled>
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Indeterminate checkbox
+                    </label>
+                  </div>
+            </div>
+            <hr>
+            <div class="col-12">
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" name="checkbox" role="switch" id="switchBtn">
+                    <label for="switchBtn" class="form-check-label">Switch button</label>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <hr class="border-danger">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="form-check form-check-reverse">
+                    <input type="radio" name="inline-check" id="IC1" class="form-check-input">
+                    <label for="IC1" class="form-check-label">Inline check</label>
+                </div>
+                <div class="form-check form-check-reverse">
+                    <input type="radio" name="inline-check" id="IC2" class="form-check-input">
+                    <label for="IC2" class="form-check-label">Inline check</label>
+                </div>
+                <div class="form-check form-check-reverse">
+                    <input type="radio" name="inline-check" id="IC3" class="form-check-input" disabled>
+                    <label for="IC3" class="form-check-label">Inline check (Disabled)</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
 </body>
 </html>
