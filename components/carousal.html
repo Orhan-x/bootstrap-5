@@ -13,6 +13,11 @@
     <div class="container">
        <div class="card" style="height: 30rem;">
         <div class="carousel  slide w-100 h-100"  id="carouselEx">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselEx" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button> 
+                <button type="button" data-bs-target="#carouselEx" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+                <button type="button" data-bs-target="#carouselEx" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+            </div>
             <div class="carousel-inner w-100 h-100">
                 <div class="carousel-item active h-100 w-100">
                     <img src="./../assets/bri.jpg" class="d-block w-100 h-100" alt="BRI Agent">
@@ -29,7 +34,7 @@
                 <span class="visually-hidden">Previous</span>
             </button>
             <button type="button" class="carousel-control-next" data-bs-target="#carouselEx" data-bs-slide="next">
-                <i class="fa-solid fa-less-than"  aria-hidden="true"></i>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
 
             </button>
