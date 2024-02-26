@@ -5,4 +5,13 @@
     background-color: #ccc;
     float: left;
     width: 25%;
+   
+}
+
+.parent {
+    cursor: pointer;
+}
+
+body {
+    min-height: 10000px;
 }
